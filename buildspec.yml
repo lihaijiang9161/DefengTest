@@ -4,7 +4,7 @@ phases:
   install:
     commands:
         - echo `which pip3`
-        - sudo /usr/local/bin/pip3 install Flask
+        - /usr/local/bin/pip3 install Flask
         #/usr/local/bin/pip3 install flask
         #python -m pip install Flask
   build:
