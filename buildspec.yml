@@ -3,6 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
+            test branch-test1-pr
         - echo `which pip3`
         - /usr/local/bin/pip3 install Flask
         #/usr/local/bin/pip3 install flask
