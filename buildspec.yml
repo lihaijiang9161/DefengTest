@@ -3,8 +3,8 @@ version: 0.2
 phases:
   install:
     commands:
-        - echo 'which pip3'
-        - /usr/local/bin/pip3 install Flask -i https://pypi.tuna.tsinghua.edu.cn/simple
+        - echo 'which pip'
+        - pip install Flask -i https://pypi.tuna.tsinghua.edu.cn/simple
         #/usr/local/bin/pip3 install flask
         #python -m pip install Flask
   build:
