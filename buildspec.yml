@@ -4,13 +4,14 @@ phases:
   install:
     commands:
         - echo 'which pip3'
-        #/usr/local/bin/pip3 install Flask
+        - /usr/local/bin/pip3 install Flask -i https://pypi.tuna.tsinghua.edu.cn/simple
         #/usr/local/bin/pip3 install flask
         #python -m pip install Flask
   build:
     commands:
       - echo Build started on `date`
       - echo Compiling the Python code...
+      - python test_app.py
   post_build:
     commands:
       - echo Build completed on `date`
