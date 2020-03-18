@@ -4,6 +4,7 @@ phases:
   install:
     commands:
         - echo 'which pip3'
+        - ehco `date`
         - /usr/local/bin/pip3 install Flask -i https://pypi.tuna.tsinghua.edu.cn/simple
         #/usr/local/bin/pip3 install flask
         #python -m pip install Flask
